@@ -14,7 +14,8 @@ public class LoginControlador {
     }
 
     private void initEventos() {
-        // Click en botón login
+        // Click en botón log
+        // in
         vista.getBtnLogin().addActionListener(e -> login());
 
         // Enter en campo de contraseña
