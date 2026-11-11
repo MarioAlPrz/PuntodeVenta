@@ -1,4 +1,3 @@
-import com.formdev.flatlaf.FlatLightLaf;
 import javax.swing.*;
 
 /**
@@ -10,7 +9,7 @@ public class Main {
     public static void main(String[] args) {
         // Configurar FlatLaf como Look & Feel
         try {
-            FlatLightLaf.setup();
+            UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
             UIManager.put("Button.arc", 10);
             UIManager.put("TextComponent.arc", 8);
             UIManager.put("Component.arc", 8);
