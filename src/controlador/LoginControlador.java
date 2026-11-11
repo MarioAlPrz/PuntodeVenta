@@ -1,3 +1,9 @@
+package controlador;
+
+import dao.UsuarioDAO;
+import modelo.Usuario;
+import vista.LoginVista;
+import vista.VentaPOSVista;
 import java.awt.event.KeyAdapter;
 import java.awt.event.KeyEvent;
 import javax.swing.JOptionPane;

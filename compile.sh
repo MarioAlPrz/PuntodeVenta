@@ -21,7 +21,7 @@ rm -rf "$BIN_DIR"/*
 
 # Compilar todos los archivos Java
 find "$SRC_DIR" -name "*.java" > /tmp/pv_sources.txt
-javac -cp "$CP" -d "$BIN_DIR" @/tmp/pv_sources.txt 2>&1
+javac -encoding UTF-8 -cp "$CP" -d "$BIN_DIR" @/tmp/pv_sources.txt 2>&1
 
 if [ $? -eq 0 ]; then
     echo ""

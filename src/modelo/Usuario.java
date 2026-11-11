@@ -1,3 +1,5 @@
+package modelo;
+
 /**
  * Modelo Usuario - POJO
  * Representa un usuario del sistema (vendedor o administrador)

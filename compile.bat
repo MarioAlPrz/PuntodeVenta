@@ -8,13 +8,14 @@ echo   Compilando Punto de Venta
 echo ===================================
 echo.
 
-if not exist bin mkdir bin
+if exist bin rmdir /s /q bin
+mkdir bin
 
 echo Buscando archivos Java...
 dir /s /b src\*.java > sources.txt
 
 echo Compilando codigo...
-javac -cp "lib\*" -d bin @sources.txt
+javac -encoding UTF-8 -cp "lib\*" -d bin @sources.txt
 
 if %ERRORLEVEL% equ 0 (
     del /f /q sources.txt >nul 2>&1

@@ -1,3 +1,11 @@
+package controlador;
+
+import dao.ProductoDAO;
+import dao.VentaDAO;
+import modelo.DetalleVenta;
+import modelo.Producto;
+import modelo.Venta;
+import vista.VentaPOSVista;
 import javax.swing.*;
 import java.awt.event.*;
 import java.util.ArrayList;

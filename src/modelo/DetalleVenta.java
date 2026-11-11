@@ -1,3 +1,5 @@
+package modelo;
+
 /**
  * Modelo DetalleVenta - POJO
  * Representa una línea/producto dentro de una venta

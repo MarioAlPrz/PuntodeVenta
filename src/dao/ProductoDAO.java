@@ -1,3 +1,7 @@
+package dao;
+
+import modelo.Conexion;
+import modelo.Producto;
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;

@@ -1,3 +1,5 @@
+package modelo;
+
 /**
  * Modelo Venta - POJO
  * Representa el encabezado de una venta realizada

@@ -1,3 +1,5 @@
+package modelo;
+
 /**
  * Modelo Producto - POJO
  * Representa un producto disponible en el punto de venta

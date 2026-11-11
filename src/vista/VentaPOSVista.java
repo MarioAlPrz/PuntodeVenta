@@ -1,3 +1,6 @@
+package vista;
+
+import modelo.Usuario;
 import javax.swing.*;
 import javax.swing.table.*;
 import java.awt.*;

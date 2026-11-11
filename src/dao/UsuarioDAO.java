@@ -1,3 +1,7 @@
+package dao;
+
+import modelo.Conexion;
+import modelo.Usuario;
 import java.sql.*;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
